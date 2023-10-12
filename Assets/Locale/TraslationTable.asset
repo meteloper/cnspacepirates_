@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: TraslationTable
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 8541e0ab029e94748b8f31c6b1339678, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: e197d58407430b343bcc12f6a7746897, type: 2}
+  - {fileID: 11400000, guid: 6944bb79830c3a84b9d6f2f23708c0e6, type: 2}
+  - {fileID: 11400000, guid: ae2274259f0bda64a8bfd6ef79a9f57a, type: 2}
+  - {fileID: 11400000, guid: 63ed9b5f7f6ff4f49981fc4809a1e684, type: 2}
+  - {fileID: 11400000, guid: 7bceb1f456fd1324a8330e3eed83fa67, type: 2}
+  - {fileID: 11400000, guid: f2f07e0bee51b7648a42d4ce802c9e1e, type: 2}
+  - {fileID: 11400000, guid: 17b2b9cbfefc7904a9f30924a409a33e, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []
