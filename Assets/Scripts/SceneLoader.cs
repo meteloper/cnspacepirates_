@@ -3,17 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneLoader : MonoBehaviour
+namespace SpacePirates
 {
-    public GameObject ManagerContainer;
-    public string SceneToLoad;
-
-    IEnumerator Start()
+    public class SceneLoader : MonoBehaviour
     {
-        yield return new WaitForEndOfFrame();
+        public GameObject ManagerContainer;
+        public string SceneToLoad;
 
-        DontDestroyOnLoad(ManagerContainer);
+        IEnumerator Start()
+        {
+            yield return new WaitForEndOfFrame();
 
-        SceneManager.LoadScene(SceneToLoad);
+            DontDestroyOnLoad(ManagerContainer);
+
+            SceneManager.LoadScene(SceneToLoad);
+        }
     }
 }
