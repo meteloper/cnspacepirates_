@@ -26,6 +26,22 @@ MonoBehaviour:
     m_Localized: LOGIN
     m_Metadata:
       m_Items: []
+  - m_Id: 781558985486336
+    m_Localized: HEADQUARTERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 781562345123840
+    m_Localized: HANGAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 781565486657536
+    m_Localized: LABORATORY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 781569529966592
+    m_Localized: WORKSHOP
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

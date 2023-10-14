@@ -23,6 +23,22 @@ MonoBehaviour:
     m_Key: playLogin
     m_Metadata:
       m_Items: []
+  - m_Id: 781558985486336
+    m_Key: btnHQ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 781562345123840
+    m_Key: btnHangar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 781565486657536
+    m_Key: btnLab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 781569529966592
+    m_Key: btnWorkshop
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
