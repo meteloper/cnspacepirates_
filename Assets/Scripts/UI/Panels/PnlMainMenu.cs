@@ -25,6 +25,13 @@ namespace SpacePirates.UI
         public Button BtnLaboratory;
         public Button BtnWorkshop;
 
+        public TextMeshProUGUI TxtResource1Amount;
+        public TextMeshProUGUI TxtResource2Amount;
+        public TextMeshProUGUI TxtResource3Amount;
+        public TextMeshProUGUI TxtResource4Amount;
+
+
+
         public MainMenuScn CurrentScn = MainMenuScn.Headquarters;
 
         private string[] localizedKeys = new string[] {"btnHQ","btnHangar","btnLab","btnWorkshop"};
@@ -47,6 +54,23 @@ namespace SpacePirates.UI
             BtnCloseScene.onClick.AddListener(OnClickBtnCloseScene);
 
             currentLocalizeTable = LocalizedTable.GetTable();
+
+            SettingsManager.Instance.ActionOnResourcesChanged += OnResourcesChanged;
+            OnResourcesChanged();
+        }
+
+        private void OnResourcesChanged()
+        {
+            TxtResource1Amount.text = ((int)SettingsManager.Instance.Resource1Amount).ToString("n0");
+            TxtResource2Amount.text = ((int)SettingsManager.Instance.Resource2Amount).ToString("n0");
+            TxtResource3Amount.text = ((int)SettingsManager.Instance.Resource3Amount).ToString("n0");
+            TxtResource4Amount.text = ((int)SettingsManager.Instance.Resource4Amount).ToString("n0");
+        }
+
+        private void OnDestroy()
+        {
+            if (SettingsManager.Instance != null)
+                SettingsManager.Instance.ActionOnResourcesChanged -= OnResourcesChanged;
         }
 
         private void CloseScene()
