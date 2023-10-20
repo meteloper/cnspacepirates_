@@ -1652,6 +1652,10 @@ MonoBehaviour:
   BtnHangar: {fileID: 5282964498293752412}
   BtnLaboratory: {fileID: 5282964500173597392}
   BtnWorkshop: {fileID: 5282964498422160137}
+  TxtResource1Amount: {fileID: 6653979451006042415}
+  TxtResource2Amount: {fileID: 2494265185951414424}
+  TxtResource3Amount: {fileID: 6557603187981394261}
+  TxtResource4Amount: {fileID: 8403423695181299133}
   CurrentScn: -1
 --- !u!1 &6309272285667853467
 GameObject:
